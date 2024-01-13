@@ -1,0 +1,48 @@
+/* kizuna共通 */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: 100dvh;
+    background-color: #F2FAF9;
+}
+
+/* ヘッダー */
+header {
+    padding: 16px 20px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+}
+
+/* メイン */
+main {
+    flex-grow: 1;
+}
+
+/* タイトルセクション */
+.ttlSec {
+    padding: 40px 20px;
+}
+
+@media (min-width: 760px) {
+
+}
+
+/* リンクセクション */
+.linkSec {
+    padding: 0 20px;
+}
+
+.teamList>li:not(:first-child) {
+    padding-top: 24px;
+}
+
+.linkListWrapper {
+    padding-top: 24px;
+}
+
+/* フッター */
+footer {
+    padding: 16px 20px;
+    background-color: #FFFFFF;
+}
